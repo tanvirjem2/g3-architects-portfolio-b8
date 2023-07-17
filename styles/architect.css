@@ -474,4 +474,8 @@ footer {
     .feature-img img {
         width: 600px;
     }
+
+    .footer-description {
+        padding: 20px;
+    }
 }
