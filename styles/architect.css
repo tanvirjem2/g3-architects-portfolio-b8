@@ -99,7 +99,7 @@ nav li a {
 
 main {
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 85px auto;
 }
 
 /* team section */
@@ -107,6 +107,7 @@ main {
 .teams-container {
     display: flex;
     align-items: center;
+
 }
 
 .teams-img-container {
@@ -116,7 +117,7 @@ main {
 }
 
 .teams-content {
-    padding: 0px 70px;
+    margin-left: 76px;
 }
 
 .quick-list {
@@ -171,6 +172,18 @@ main {
     .banner-title {
         font-size: 54px;
     }
+
+    .teams-img-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .teams-container {
+        flex-direction: column;
+    }
+
+    .teams-description {
+        width: 100%;
+    }
 }
 
 @media screen and (min-width:576px) and (max-width:992px) {
@@ -180,5 +193,9 @@ main {
 
     header {
         padding: 50px;
+    }
+
+    .teams-container {
+        flex-direction: column;
     }
 }
